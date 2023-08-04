@@ -1,0 +1,3 @@
+2023-08-04T10:00:31,283 - /127.0.0.1:39664 "GET /ping HTTP/1.1" 200 9
+2023-08-04T10:01:35,674 - /127.0.0.1:58722 "PUT /predictions/coco_yolov5s HTTP/1.1" 404 3
+2023-08-04T10:01:50,347 - /127.0.0.1:47202 "PUT /predictions/face-car-plate-window HTTP/1.1" 200 1171

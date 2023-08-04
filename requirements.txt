@@ -1,0 +1,8 @@
+opencv-python
+torchserve
+torch-model-archiver
+nvgpu
+
+# apt update, upgrade
+# install java
+# install pip install torchserve torch-model-archiver

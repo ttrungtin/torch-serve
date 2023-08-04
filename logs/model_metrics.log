@@ -1,0 +1,2 @@
+2023-08-04T10:01:50,346 - HandlerTime.ms:1163.8|#ModelName:face-car-plate-window,Level:Model|#hostname:77f6adad2e94,requestID:a89ce145-a4a4-4835-8dc8-f081400b103d,timestamp:1691143310
+2023-08-04T10:01:50,348 - PredictionTime.ms:1163.97|#ModelName:face-car-plate-window,Level:Model|#hostname:77f6adad2e94,requestID:a89ce145-a4a4-4835-8dc8-f081400b103d,timestamp:1691143310

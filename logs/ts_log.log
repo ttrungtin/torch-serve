@@ -1,0 +1,228 @@
+2023-08-04T10:00:23,682 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2023-08-04T10:00:23,682 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2023-08-04T10:00:23,745 [INFO ] main org.pytorch.serve.metrics.configuration.MetricConfiguration - Successfully loaded metrics configuration from /usr/local/lib/python3.10/dist-packages/ts/configs/metrics.yaml
+2023-08-04T10:00:23,745 [INFO ] main org.pytorch.serve.metrics.configuration.MetricConfiguration - Successfully loaded metrics configuration from /usr/local/lib/python3.10/dist-packages/ts/configs/metrics.yaml
+2023-08-04T10:00:23,870 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.8.1
+TS Home: /usr/local/lib/python3.10/dist-packages
+Current directory: /home/torch-serve
+Temp directory: /tmp
+Metrics config path: /usr/local/lib/python3.10/dist-packages/ts/configs/metrics.yaml
+Number of GPUs: 1
+Number of CPUs: 16
+Max heap size: 3960 M
+Python executable: /usr/bin/python
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /home/torch-serve/model-store
+Initial Models: face-car-plate-window.mar
+Log dir: /home/torch-serve/logs
+Metrics dir: /home/torch-serve/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 1
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Enable metrics API: true
+Metrics mode: log
+Disable system metrics: false
+Workflow Store: /home/torch-serve/model-store
+Model config: N/A
+2023-08-04T10:00:23,870 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.8.1
+TS Home: /usr/local/lib/python3.10/dist-packages
+Current directory: /home/torch-serve
+Temp directory: /tmp
+Metrics config path: /usr/local/lib/python3.10/dist-packages/ts/configs/metrics.yaml
+Number of GPUs: 1
+Number of CPUs: 16
+Max heap size: 3960 M
+Python executable: /usr/bin/python
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /home/torch-serve/model-store
+Initial Models: face-car-plate-window.mar
+Log dir: /home/torch-serve/logs
+Metrics dir: /home/torch-serve/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 1
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Enable metrics API: true
+Metrics mode: log
+Disable system metrics: false
+Workflow Store: /home/torch-serve/model-store
+Model config: N/A
+2023-08-04T10:00:23,878 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2023-08-04T10:00:23,878 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2023-08-04T10:00:23,898 [INFO ] main org.pytorch.serve.ModelServer - Loading initial models: face-car-plate-window.mar
+2023-08-04T10:00:23,898 [INFO ] main org.pytorch.serve.ModelServer - Loading initial models: face-car-plate-window.mar
+2023-08-04T10:00:24,177 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 0.8 for model face-car-plate-window
+2023-08-04T10:00:24,177 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 0.8 for model face-car-plate-window
+2023-08-04T10:00:24,177 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 0.8 for model face-car-plate-window
+2023-08-04T10:00:24,177 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 0.8 for model face-car-plate-window
+2023-08-04T10:00:24,177 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model face-car-plate-window loaded.
+2023-08-04T10:00:24,177 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model face-car-plate-window loaded.
+2023-08-04T10:00:24,178 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: face-car-plate-window, count: 1
+2023-08-04T10:00:24,178 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: face-car-plate-window, count: 1
+2023-08-04T10:00:24,186 [DEBUG] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python, /usr/local/lib/python3.10/dist-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000, --metrics-config, /usr/local/lib/python3.10/dist-packages/ts/configs/metrics.yaml]
+2023-08-04T10:00:24,186 [DEBUG] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/usr/bin/python, /usr/local/lib/python3.10/dist-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000, --metrics-config, /usr/local/lib/python3.10/dist-packages/ts/configs/metrics.yaml]
+2023-08-04T10:00:24,187 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2023-08-04T10:00:24,187 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2023-08-04T10:00:24,239 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2023-08-04T10:00:24,239 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2023-08-04T10:00:24,239 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2023-08-04T10:00:24,239 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2023-08-04T10:00:24,240 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2023-08-04T10:00:24,240 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2023-08-04T10:00:24,240 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2023-08-04T10:00:24,240 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2023-08-04T10:00:24,241 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2023-08-04T10:00:24,241 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2023-08-04T10:00:24,482 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2023-08-04T10:00:24,482 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2023-08-04T10:00:25,401 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143225
+2023-08-04T10:00:25,404 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:284.172664642334|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143225
+2023-08-04T10:00:25,404 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:181.87873077392578|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143225
+2023-08-04T10:00:25,405 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:39.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143225
+2023-08-04T10:00:25,405 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:14.973958333333334|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143225
+2023-08-04T10:00:25,405 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:920.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143225
+2023-08-04T10:00:25,406 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:0.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143225
+2023-08-04T10:00:25,406 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:11650.73828125|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143225
+2023-08-04T10:00:25,406 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:3810.03125|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143225
+2023-08-04T10:00:25,406 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:26.4|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143225
+2023-08-04T10:00:26,162 [INFO ] W-9000-face-car-plate-window_0.8-stdout MODEL_LOG - s_name_part0=/tmp/.ts.sock, s_name_part1=9000, pid=2111
+2023-08-04T10:00:26,164 [INFO ] W-9000-face-car-plate-window_0.8-stdout MODEL_LOG - Listening on port: /tmp/.ts.sock.9000
+2023-08-04T10:00:26,168 [INFO ] W-9000-face-car-plate-window_0.8-stdout MODEL_LOG - Successfully loaded /usr/local/lib/python3.10/dist-packages/ts/configs/metrics.yaml.
+2023-08-04T10:00:26,169 [INFO ] W-9000-face-car-plate-window_0.8-stdout MODEL_LOG - [PID]2111
+2023-08-04T10:00:26,169 [INFO ] W-9000-face-car-plate-window_0.8-stdout MODEL_LOG - Torch worker started.
+2023-08-04T10:00:26,169 [INFO ] W-9000-face-car-plate-window_0.8-stdout MODEL_LOG - Python runtime: 3.10.6
+2023-08-04T10:00:26,170 [DEBUG] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - W-9000-face-car-plate-window_0.8 State change null -> WORKER_STARTED
+2023-08-04T10:00:26,170 [DEBUG] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - W-9000-face-car-plate-window_0.8 State change null -> WORKER_STARTED
+2023-08-04T10:00:26,175 [INFO ] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2023-08-04T10:00:26,175 [INFO ] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - Connecting to: /tmp/.ts.sock.9000
+2023-08-04T10:00:26,182 [INFO ] W-9000-face-car-plate-window_0.8-stdout MODEL_LOG - Connection accepted: /tmp/.ts.sock.9000.
+2023-08-04T10:00:26,185 [INFO ] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - Flushing req.cmd LOAD to backend at: 1691143226185
+2023-08-04T10:00:26,185 [INFO ] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - Flushing req.cmd LOAD to backend at: 1691143226185
+2023-08-04T10:00:26,208 [INFO ] W-9000-face-car-plate-window_0.8-stdout MODEL_LOG - model_name: face-car-plate-window, batchSize: 1
+2023-08-04T10:00:26,682 [INFO ] W-9000-face-car-plate-window_0.8-stdout MODEL_LOG - Enabled tensor cores
+2023-08-04T10:00:26,683 [INFO ] W-9000-face-car-plate-window_0.8-stdout MODEL_LOG - proceeding without onnxruntime
+2023-08-04T10:00:26,954 [DEBUG] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - sent a reply, jobdone: true
+2023-08-04T10:00:26,954 [DEBUG] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - sent a reply, jobdone: true
+2023-08-04T10:00:26,954 [INFO ] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - Backend response time: 745
+2023-08-04T10:00:26,954 [INFO ] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - Backend response time: 745
+2023-08-04T10:00:26,954 [DEBUG] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - W-9000-face-car-plate-window_0.8 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2023-08-04T10:00:26,954 [DEBUG] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - W-9000-face-car-plate-window_0.8 State change WORKER_STARTED -> WORKER_MODEL_LOADED
+2023-08-04T10:00:26,954 [INFO ] W-9000-face-car-plate-window_0.8 TS_METRICS - WorkerLoadTime.Milliseconds:2771.0|#WorkerName:W-9000-face-car-plate-window_0.8,Level:Host|#hostname:77f6adad2e94,timestamp:1691143226
+2023-08-04T10:00:26,955 [INFO ] W-9000-face-car-plate-window_0.8 TS_METRICS - WorkerThreadTime.Milliseconds:25.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143226
+2023-08-04T10:00:31,283 [INFO ] pool-2-thread-2 ACCESS_LOG - /127.0.0.1:39664 "GET /ping HTTP/1.1" 200 9
+2023-08-04T10:00:31,286 [INFO ] pool-2-thread-2 TS_METRICS - Requests2XX.Count:1.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143231
+2023-08-04T10:01:25,152 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:33.3|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143285
+2023-08-04T10:01:25,152 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:284.1752166748047|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143285
+2023-08-04T10:01:25,153 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:181.87617874145508|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143285
+2023-08-04T10:01:25,153 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:39.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143285
+2023-08-04T10:01:25,153 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:17.594401041666668|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143285
+2023-08-04T10:01:25,153 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:1081.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143285
+2023-08-04T10:01:25,153 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:0.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143285
+2023-08-04T10:01:25,153 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:11384.26953125|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143285
+2023-08-04T10:01:25,154 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:4029.94140625|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143285
+2023-08-04T10:01:25,154 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:28.1|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143285
+2023-08-04T10:01:35,674 [INFO ] epollEventLoopGroup-3-3 ACCESS_LOG - /127.0.0.1:58722 "PUT /predictions/coco_yolov5s HTTP/1.1" 404 3
+2023-08-04T10:01:35,675 [INFO ] epollEventLoopGroup-3-3 TS_METRICS - Requests4XX.Count:1.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143295
+2023-08-04T10:01:49,178 [INFO ] epollEventLoopGroup-3-4 TS_METRICS - ts_inference_requests_total.Count:1.0|#model_name:face-car-plate-window,model_version:default|#hostname:77f6adad2e94,timestamp:1691143309
+2023-08-04T10:01:49,179 [INFO ] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - Flushing req.cmd PREDICT to backend at: 1691143309179
+2023-08-04T10:01:49,179 [INFO ] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - Flushing req.cmd PREDICT to backend at: 1691143309179
+2023-08-04T10:01:49,182 [INFO ] W-9000-face-car-plate-window_0.8-stdout MODEL_LOG - Backend received inference at: 1691143309
+2023-08-04T10:01:50,346 [INFO ] W-9000-face-car-plate-window_0.8-stdout org.pytorch.serve.wlm.WorkerLifeCycle - result=[METRICS]HandlerTime.Milliseconds:1163.8|#ModelName:face-car-plate-window,Level:Model|#hostname:77f6adad2e94,1691143310,a89ce145-a4a4-4835-8dc8-f081400b103d, pattern=[METRICS]
+2023-08-04T10:01:50,346 [INFO ] W-9000-face-car-plate-window_0.8-stdout org.pytorch.serve.wlm.WorkerLifeCycle - result=[METRICS]HandlerTime.Milliseconds:1163.8|#ModelName:face-car-plate-window,Level:Model|#hostname:77f6adad2e94,1691143310,a89ce145-a4a4-4835-8dc8-f081400b103d, pattern=[METRICS]
+2023-08-04T10:01:50,347 [INFO ] W-9000-face-car-plate-window_0.8 ACCESS_LOG - /127.0.0.1:47202 "PUT /predictions/face-car-plate-window HTTP/1.1" 200 1171
+2023-08-04T10:01:50,347 [INFO ] W-9000-face-car-plate-window_0.8 TS_METRICS - Requests2XX.Count:1.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143310
+2023-08-04T10:01:50,346 [INFO ] W-9000-face-car-plate-window_0.8-stdout MODEL_METRICS - HandlerTime.ms:1163.8|#ModelName:face-car-plate-window,Level:Model|#hostname:77f6adad2e94,requestID:a89ce145-a4a4-4835-8dc8-f081400b103d,timestamp:1691143310
+2023-08-04T10:01:50,348 [INFO ] W-9000-face-car-plate-window_0.8 TS_METRICS - ts_inference_latency_microseconds.Microseconds:1168150.773|#model_name:face-car-plate-window,model_version:default|#hostname:77f6adad2e94,timestamp:1691143310
+2023-08-04T10:01:50,348 [INFO ] W-9000-face-car-plate-window_0.8-stdout org.pytorch.serve.wlm.WorkerLifeCycle - result=[METRICS]PredictionTime.Milliseconds:1163.97|#ModelName:face-car-plate-window,Level:Model|#hostname:77f6adad2e94,1691143310,a89ce145-a4a4-4835-8dc8-f081400b103d, pattern=[METRICS]
+2023-08-04T10:01:50,348 [INFO ] W-9000-face-car-plate-window_0.8 TS_METRICS - ts_queue_latency_microseconds.Microseconds:211.404|#model_name:face-car-plate-window,model_version:default|#hostname:77f6adad2e94,timestamp:1691143310
+2023-08-04T10:01:50,348 [INFO ] W-9000-face-car-plate-window_0.8-stdout org.pytorch.serve.wlm.WorkerLifeCycle - result=[METRICS]PredictionTime.Milliseconds:1163.97|#ModelName:face-car-plate-window,Level:Model|#hostname:77f6adad2e94,1691143310,a89ce145-a4a4-4835-8dc8-f081400b103d, pattern=[METRICS]
+2023-08-04T10:01:50,348 [DEBUG] W-9000-face-car-plate-window_0.8 org.pytorch.serve.job.Job - Waiting time ns: 211404, Backend time ns: 1169113790
+2023-08-04T10:01:50,348 [DEBUG] W-9000-face-car-plate-window_0.8 org.pytorch.serve.job.Job - Waiting time ns: 211404, Backend time ns: 1169113790
+2023-08-04T10:01:50,348 [INFO ] W-9000-face-car-plate-window_0.8-stdout MODEL_METRICS - PredictionTime.ms:1163.97|#ModelName:face-car-plate-window,Level:Model|#hostname:77f6adad2e94,requestID:a89ce145-a4a4-4835-8dc8-f081400b103d,timestamp:1691143310
+2023-08-04T10:01:50,348 [INFO ] W-9000-face-car-plate-window_0.8 TS_METRICS - QueueTime.Milliseconds:0.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143310
+2023-08-04T10:01:50,348 [DEBUG] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - sent a reply, jobdone: true
+2023-08-04T10:01:50,348 [DEBUG] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - sent a reply, jobdone: true
+2023-08-04T10:01:50,348 [INFO ] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1166
+2023-08-04T10:01:50,348 [INFO ] W-9000-face-car-plate-window_0.8 org.pytorch.serve.wlm.WorkerThread - Backend response time: 1166
+2023-08-04T10:01:50,349 [INFO ] W-9000-face-car-plate-window_0.8 TS_METRICS - WorkerThreadTime.Milliseconds:3.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143310
+2023-08-04T10:02:25,077 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143345
+2023-08-04T10:02:25,077 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:284.17405700683594|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143345
+2023-08-04T10:02:25,077 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:181.87733840942383|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143345
+2023-08-04T10:02:25,078 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:39.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143345
+2023-08-04T10:02:25,078 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:20.3125|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143345
+2023-08-04T10:02:25,078 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:1248.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143345
+2023-08-04T10:02:25,078 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:0.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143345
+2023-08-04T10:02:25,078 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:11091.1640625|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143345
+2023-08-04T10:02:25,078 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:4356.5234375|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143345
+2023-08-04T10:02:25,079 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:30.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143345
+2023-08-04T10:03:25,087 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143405
+2023-08-04T10:03:25,088 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:284.1740531921387|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143405
+2023-08-04T10:03:25,088 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:181.8773422241211|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143405
+2023-08-04T10:03:25,088 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:39.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143405
+2023-08-04T10:03:25,088 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:20.182291666666668|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143405
+2023-08-04T10:03:25,089 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:1240.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143405
+2023-08-04T10:03:25,089 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:1.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143405
+2023-08-04T10:03:25,089 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:11109.93359375|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143405
+2023-08-04T10:03:25,089 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:4342.24609375|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143405
+2023-08-04T10:03:25,089 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:29.9|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143405
+2023-08-04T10:04:25,013 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:25.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143465
+2023-08-04T10:04:25,013 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:284.1740379333496|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143465
+2023-08-04T10:04:25,013 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:181.87735748291016|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143465
+2023-08-04T10:04:25,014 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:39.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143465
+2023-08-04T10:04:25,014 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:20.003255208333332|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143465
+2023-08-04T10:04:25,014 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:1229.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143465
+2023-08-04T10:04:25,014 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:0.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143465
+2023-08-04T10:04:25,014 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:11087.89453125|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143465
+2023-08-04T10:04:25,014 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:4361.33984375|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143465
+2023-08-04T10:04:25,014 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:30.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143465
+2023-08-04T10:05:25,113 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143525
+2023-08-04T10:05:25,114 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:284.19153594970703|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143525
+2023-08-04T10:05:25,114 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:181.85985946655273|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143525
+2023-08-04T10:05:25,114 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:39.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143525
+2023-08-04T10:05:25,115 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:20.686848958333332|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143525
+2023-08-04T10:05:25,115 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:1271.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143525
+2023-08-04T10:05:25,115 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:62.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143525
+2023-08-04T10:05:25,115 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10904.578125|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143525
+2023-08-04T10:05:25,115 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:4514.66015625|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143525
+2023-08-04T10:05:25,116 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:31.2|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143525
+2023-08-04T10:06:25,080 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143585
+2023-08-04T10:06:25,081 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:284.18818283081055|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143585
+2023-08-04T10:06:25,081 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:181.86321258544922|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143585
+2023-08-04T10:06:25,081 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:39.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143585
+2023-08-04T10:06:25,081 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:20.035807291666668|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143585
+2023-08-04T10:06:25,081 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:1231.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143585
+2023-08-04T10:06:25,081 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:6.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143585
+2023-08-04T10:06:25,081 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10776.60546875|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143585
+2023-08-04T10:06:25,082 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:4642.25|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143585
+2023-08-04T10:06:25,082 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:32.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143585
+2023-08-04T10:07:25,107 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:33.3|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143645
+2023-08-04T10:07:25,107 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:284.1908950805664|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143645
+2023-08-04T10:07:25,108 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:181.86050033569336|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143645
+2023-08-04T10:07:25,108 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:39.0|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143645
+2023-08-04T10:07:25,108 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:19.775390625|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143645
+2023-08-04T10:07:25,108 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:1215.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143645
+2023-08-04T10:07:25,109 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:5.0|#Level:Host,DeviceId:0|#hostname:77f6adad2e94,timestamp:1691143645
+2023-08-04T10:07:25,109 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:10972.453125|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143645
+2023-08-04T10:07:25,109 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:4476.75390625|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143645
+2023-08-04T10:07:25,109 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:30.7|#Level:Host|#hostname:77f6adad2e94,timestamp:1691143645
