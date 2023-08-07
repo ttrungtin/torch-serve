@@ -11,6 +11,19 @@ image_info=$(docker image inspect "$image_name" 2>&1)
 if [[ $image_info == *"No such image"* ]]; then
   echo "Docker image '$image_name' does not exist."
   docker build --pull --rm -f "Dockerfile" -t torchserve:latest "."
+  docker run \
+    -itd \
+    --rm \
+    -u root \
+    --gpus all \
+    --shm-size=1g \
+    -p 8080:8080 \
+    -v $SHELL_PATH/torch-serve/:/home/torch-serve \
+    torchserve:latest torchserve \
+    --start \
+    --model-store model-store \
+    --models face-car-plate-window.mar \
+    --foreground
 else
   echo "Docker image '$image_name' exists."
   docker run \
